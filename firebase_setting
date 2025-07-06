@@ -1,0 +1,12 @@
+<Binary>
+pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => '10.19.0'
+
+<tag version>
+refer to https://github.com/invertase/firestore-ios-sdk-frameworks
+
+<CLI>
+$ cd ios
+$ rm Podfile.lock
+$ pod install --repo-update
+$ flutter clean
+$ flutter pub get
